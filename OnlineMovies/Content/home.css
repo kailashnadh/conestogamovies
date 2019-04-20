@@ -1,0 +1,58 @@
+﻿.Image, .Image {
+    overflow: hidden
+}
+
+.Image {
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    position: relative;
+    transition: all .5s ease 0s;
+    border:thin solid #FF0000;
+}
+
+    .Image:hover {
+        transform: scale(1.1);
+    }
+
+    .Image  a {
+        display: block
+    }
+
+    .Image  img {
+        width: 100%;
+        height: auto;
+        transition: all .5s ease 0s
+    }
+
+    
+
+    .Image {
+        padding: 12px 12px 15px;
+        transition: all .5s ease 0s;
+        margin:15px;
+    }
+    tr{
+        height:100px;
+    }
+
+.button {
+    width: 114px;
+    margin-top: 13px;
+    height: 40px;
+    background-color: #559732;
+    border-radius: 14px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+@media only screen and (max-width:990px) {
+    .Image {
+        margin-bottom: 30px
+    }
+}
